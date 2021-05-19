@@ -8,10 +8,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'personal website, saepulmalik27, learning by doing' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://lh3.googleusercontent.com/ogw/ADGmqu_ypfeqt4isKm4aYYp66bvhokjTRxKDQ25H-0JZ=s32-c-mo' }
     ]
   },
 
@@ -24,7 +24,12 @@ export default {
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: {
+    dirs : [
+      '~/components',
+      '~/components/templates'
+    ]
+  },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [

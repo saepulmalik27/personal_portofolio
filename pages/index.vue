@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
       <h1 class="title">
         saepulmalik
       </h1>
@@ -28,6 +27,7 @@
 </template>
 
 <script>
+import moduleName from '@'
 export default {}
 </script>
 
